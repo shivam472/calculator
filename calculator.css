@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background: linear-gradient(to right, #e91e63, #3f51b5);
+    height: 100%;
+}
+.main{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.button{
+    width: 50;
+    height: 40;
+    font-size: 25;
+    margin: 0;
+    border: none;
+    background: #678ea1;
+    color: white;
+}
+.button:hover{
+    cursor: pointer;
+}
+.textview{
+    position: relative;
+    width: 206;
+    transform: translateX(1%);
+    height: 60;
+    font-size: 25;
+    padding: 5;
+    color: #607d8b;
+}
+.equal{
+    height: 3.27em;
+}
